@@ -1,0 +1,23 @@
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* define the variables */
+:root {
+	--bg-color: #202124;
+	--bg-darker-color: #171717;
+	--blue-color: #8ab4f8;
+}
+
+
+/* global styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: arial, sans-serif;
+	color: white;
+	/* background: var(--bg-color); */
+}
